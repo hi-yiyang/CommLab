@@ -1,0 +1,82 @@
+body {
+	font-family: Rubik, Open Sans, Helvetica, Trebuchet MS, sans-serif;
+	/* font-size: 16px; */
+}
+  
+h1 {
+	font-family: Spectral, Georgia, serif;
+	font-size: 5em;
+}
+
+h2 {
+	font-family: Spectral, Georgia, serif;
+	font-size: 2.5em;
+}
+
+h4 {
+	font-family: Spectral, Georgia, serif;
+	font-size: 1.5em;
+}
+
+.h4-regular {
+	font-family: Spectral, Georgia, serif;
+	font-size: 1.5em;
+}
+
+.bg-img {
+	/* Modify the image property */
+	filter: brightness(80%) blur(4px);
+	/* The image used */
+	background-image: url("resources/bg.jpg");
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+
+.bg-text {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	padding: 20px;
+	border: 3px solid #f1f1f1;
+	z-index: 2;
+	
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	color: white;
+	text-align: center;
+}
+
+.text-shadow {
+	text-shadow: 2px 2px 3px;
+}
+
+.head {
+	position: sticky;
+	top: 0;
+
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.flex-container {
+	background-color: bisque;
+	height: 200pt;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.flex-item {
+	margin: 10pt;
+	border-style: dotted;
+	min-height: 100pt;
+	width: 200pt;
+}
