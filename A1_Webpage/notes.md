@@ -12,7 +12,7 @@ display: inline (minimum size) / block (full-width) / inline-block (customized w
 
 ### HTML
 ```
-		<div class="flex-container">
+		<div class="flexbox-container">
 			<div class="flex-item-1">
 
 			</div>
@@ -21,7 +21,7 @@ display: inline (minimum size) / block (full-width) / inline-block (customized w
 
 ### CSS
 
-	.flex-container{
+	.flexbox-container{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-evenly / space-around / space-between / center / flex-start / flex-end / space;
