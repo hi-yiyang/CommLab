@@ -3,4 +3,4 @@
 // http://codepen.io/fixcl/pen/nKFDr
 
 var audio = document.getElementById("song");
-audio.volume = 0.2;
+audio.volume = 0.35;
