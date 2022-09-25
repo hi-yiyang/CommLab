@@ -23,6 +23,10 @@ The project is Assignment 1 of Communications Lab course in Interactive media. T
 
 ## Evaluation
 
+<<<<<<< HEAD
 I have spent tens of hours going through all the materials and techniques, another tens of hours drafting and crafting the webpage, summing to ~25 hours in total. Every minor detail has been examined, and every screen size has been made into consideration.
+=======
+I have spent tens of hours going through all the materials and techniques, another tens of hours drafting and crafting the webpage, summing up to 25 hours. Every minor detail has been examined, and every screen size has been made into consideration.
+>>>>>>> da313d13155ea09c958cf86e35735a620cf73233
 
-Only two initial expectation has not been made - animation during DOM refresh and change of video size as the page is scrolled down. I reckon that they could both be implemented with JS upon further research.
+Only two initial expectations have not been made - animation during DOM refresh and change of video size as the page is scrolled down. I reckon that they could both be implemented with JS upon further research.
