@@ -1,9 +1,9 @@
-const cg = document.getElementById("cg")
-const bg = document.getElementById("bg-img")
+// const cg = document.getElementById("cg")
+// const bg = document.getElementById("bg-img")
 
-cg.addEventListener("mouseover", () => {
-	bg.style.filter = "blur(5px) brightness(80%)"
-})
+// cg.addEventListener("mouseover", () => {
+// 	bg.style.filter = "blur(5px) brightness(80%)"
+// })
 
 const buttons = document.querySelectorAll("[data-carousel-button]")
 
