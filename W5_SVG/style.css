@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Spectral|Rubik);
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	transition: 1s;
+
+	font-family: "Open Sans", Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 16px;
+
+}
+
+h1 {
+	font-family: Spectral, Georgia, serif;
+	font-size: 4.5em;
+}
+
+h2 {
+	font-family: Spectral, Georgia, serif;
+	font-size: 2.5em;
+}
+
+h5 {
+	font-family: Spectral, Georgia, serif;
+	font-size: 1.25em;
+}
+
+img {
+	width: 95%;
+	display: block;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+#bg-img {
+	/* Set rules to fill background */
+	/* width: 100vw; */
+	
+	/* Set up positioning */
+	/* position: fixed;
+	top: 0;
+	left: 0; */
+
+	/* Image blur */
+
+} 
+
+.bg-text {
+	width: 80%;
+	margin: 15% auto;
+	border: 3px solid #f1f1f1;
+
+	/* Black w/opacity/see-through */
+	/* background-color: rgba(0,0,0,0.4); */
+	text-align: center;
+	padding: 20px;
+}
+
+.text-shadow {
+	text-shadow: 2px 2px 3px;
+}
