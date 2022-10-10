@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Agent</title>
+
+    <!-- Inspired by Jack B Du -->
+
+    <style>
+      /* page styles for aesthetics */
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+      .section {
+        padding: 2em 20vw;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+      }
+      .section h1 {
+        margin: 0;
+        padding: 1em 0;
+        width: 100%;
+        text-align: center;
+      }
+      .subsection {
+        flex-grow: 1;
+        height: 100%;
+      }
+      .subsection h2 {
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+      }
+
+      /* background colors for readability */
+      .section:nth-child(odd) {
+        background-color: #eee;
+      }
+      .section:nth-child(even) {
+        background-color: #ddd;
+      }
+      /* .subsection:nth-child(even) {
+        background-color: #888;
+      }
+      .subsection:nth-child(odd) {
+        background-color: #666;
+      } */
+
+      /* styles that adjust the horizontical element behaviors */
+      .h-viewport {
+        height: 100vh;
+      }
+      .h-container {
+        width: 255%;
+        height: 80vh;
+        display: flex;
+        margin: 0 5em;
+      }
+      img {
+        margin-right: 3em;
+        /* margin-left: 3em; */
+        max-height: 90%;
+        max-width: 800;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="section h-wrapper">
+      <div class="h-viewport">
+        <h1>THE AGENT</h1>
+        <div class="h-container">
+          <div class="subsection">
+            <h2>You jot it down</h2>
+            <img src="1.jpg">
+          </div>
+          <div class="subsection">
+            <h2>You hide it in your multi-use backpack</h2>
+            <img src="2.jpg">
+          </div>
+          <div class="subsection">
+            <h2>You rendezvous with 'HIM'</h2>
+            <img src="3.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="horizontical.js"></script>
+</html>
