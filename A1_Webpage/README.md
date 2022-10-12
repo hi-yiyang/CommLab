@@ -14,7 +14,7 @@ The project is Assignment 1 of Communications Lab course in Interactive media. T
    
    The CSS master settings for `<body>` is applied before anything else. CSS plays a vital part in positioning. I have experimented with several techniques to position elements, and found `flex` position setting especially useful.
    
-   When it comes to the background image, `background-image` tag would only apply the image in a certain `<div>`, which is not fixed full-screen all the time. Yet there were also some problems while `fixed` position was utilized, including but not limited to the disappearance of elements after the code of the image.  The problem was fixed with a `relative` position setting. The positioning of the title block and the sticky header also consumed a lot of time.
+   When it comes to the background image, I have tried two solutions. `background-image` tag was proven to apply to only the image in a certain `<div>`, which is not full-screen at a fixed position all the time. Moreover, there were also some problems while `fixed` position was utilized in the second solution, including but not limited to the disappearance of elements after the code of the image.  The problem was fixed with a `relative` position setting. The positioning of the title block and the sticky header also consumed a lot of time.
    
 3. JavaScript
    
