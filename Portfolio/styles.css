@@ -1,0 +1,192 @@
+/* METADATA */
+
+:root{
+	/* FIXED TO THEME */
+	--theme-color: #f3f5f8;
+	--emphasis-color: red;
+	/* CHANGEABLE */
+	--tagline-color: rgb(22, 183, 118);
+	--text-color: #000;
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* HOME */
+
+body{
+	background: var(--theme-color);
+}
+
+#tagline{
+	font-size: 28px;
+	margin: 30vh 15vw;
+	position: fixed;
+	z-index: -1;
+}
+
+#tagline-focus{
+	color: var(--tagline-color);
+}
+
+.spaced-text{
+	letter-spacing: 2px;
+}
+
+#name{
+	text-decoration: underline;
+}
+
+#portrait img{
+	height: 50vh;
+	border-radius: 50%;
+	position: fixed;
+	right: 15%;
+	top: 15vh;
+	opacity: 0;
+}
+
+#name:hover ~ #portrait{
+	opacity: 1;
+}
+
+/* NAVIGATION */
+
+#nav{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding: 10px 15% 0 15%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 100;
+	transition: 0.5s;
+}
+
+#nav img{
+	height: 70px;
+}
+
+#nav li{
+	display: inline-block;
+	margin: 10px 20px;
+	padding-bottom: 5px;
+}
+
+#nav li a{
+	position: relative;
+	color: var(--tagline-color);
+	text-decoration: 0;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#nav li a::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	height: 1px;
+	width: 0;
+	background-color: var(--emphasis-color);
+	transition: 0.5s;
+}
+
+#nav li a:hover::after{
+	width: 100%;
+}
+
+/* PORTFOLIO */
+
+.section{
+	background: var(--theme-color);
+	padding: 100px 15%;
+}
+
+h2{
+	font-size: 54px;
+	letter-spacing: 5px;
+}
+
+.gallary-cell{
+	margin: 30px;
+}
+
+.gallary-cell img{
+	height: 400px;
+	max-width: 800px;
+	border-radius: 10px;
+}
+
+.overlay{
+	background-color: var(--theme-color);
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 140px 10%;
+	transition: 0.5s;
+}
+
+.overlay:hover{
+	opacity: 0.8;
+}
+
+h3{
+	margin-bottom: 10px;
+}
+
+.overlay a{
+	text-decoration: none;
+	color: var(--tagline-color);
+	display: block;
+	margin-top: 5px;
+	transition: 0.2s;
+}
+
+.overlay a:hover{
+	color: var(--emphasis-color);
+}
+
+/* MORE */
+
+.flexbox-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.more-flexbox h3{
+	margin: 30px 0 15px 0;
+	color: var(--tagline-color);
+	letter-spacing: 2px;
+}
+
+.contact a{
+	color: var(--text-color);
+	text-decoration: 0;
+	transition: 0.5s;
+}
+
+.contact a:hover{
+	color: var(--emphasis-color);
+}
+
+.contact a > i{
+	margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+}
